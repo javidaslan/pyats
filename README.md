@@ -1,5 +1,12 @@
 # PyATS & Genie Examples
 
+### Simple GNS3 Topology
+
+1. 2 CSRv1000 routers running on IOS XE 16
+2. 2 CiscoIOSvL2 Switches running on IOS 15.2
+
+![topology](/images/topology.png)
+
 #### Useful links
 
 1. [pyATS|Genie - Getting Started Video](https://www.youtube.com/watch?v=GhkkOxLheRY)
