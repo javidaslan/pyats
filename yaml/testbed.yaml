@@ -1,0 +1,53 @@
+devices:
+  R1:
+    connections:
+      cli:
+        ip: 192.168.11.138
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+    os: iosxe
+    type: iosxe
+  R2:
+    connections:
+      cli:
+        ip: 10.1.1.2
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+    os: iosxe
+    type: iosxe
+  S1:
+    connections:
+      cli:
+        ip: 10.10.1.2
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+    os: ios
+    type: ios
+  S2:
+    connections:
+      cli:
+        ip: 10.20.1.2
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+        username: admin
+      enable:
+        password: '%ENC{w5HDncOOw53DoQ==}'
+    os: ios
+    type: ios

@@ -1,0 +1,7 @@
+venv
+results*
+connection
+diff*
+*.json
+__pycache__
+__pycache__/*.pyc
