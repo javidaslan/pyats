@@ -3,7 +3,7 @@
 ### Simple GNS3 Topology
 
 1. 2 CSRv1000 routers running on IOS XE 16
-2. 2 CiscoIOSvL2 Switches running on IOS 15.2
+2. A CiscoIOSvL2 Switch running on IOS 15.2
 
 ![topology](/images/topology.png)
 

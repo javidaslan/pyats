@@ -6,3 +6,5 @@ diff*
 __pycache__
 __pycache__/*.pyc
 connecti*.py
+pre_snapshots
+post_snapshots
