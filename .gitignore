@@ -8,3 +8,4 @@ __pycache__/*.pyc
 connecti*.py
 pre_snapshots
 post_snapshots
+snapshots

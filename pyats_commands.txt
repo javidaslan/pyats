@@ -1,3 +1,4 @@
 1. pip install pyATS[library] -- install pyats + genie
 2. pyats create testbed interactive --output yaml/testbed.yaml --encode-password -- create testbed (inventory)
 3. init_exec_commands=[], init_config_commands=[]
+4. genie learn ntp --testbed-file testbed/testbed_ask.yaml --output snapshots/ learn operational state of device/feature

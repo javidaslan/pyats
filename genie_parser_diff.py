@@ -50,10 +50,10 @@ def process_commands(device, configure_commands, cleanup_commands, snapshot_comm
 
 
 def main():
-    results = []
     try:
+        print(os.getcwd())
         # load testbed file
-        testbed_object = testbed.load('testbed.yaml')
+        testbed_object = testbed.load('testbed/testbed_markup.yaml')
         devices = testbed_object.devices
         configure_commands = None
         snapshot_command = 'show interfaces'

@@ -18,7 +18,7 @@ def main():
     results = []
     try:
         # load testbed file
-        testbed_object = testbed.load('testbed.yaml')
+        testbed_object = testbed.load('testbed_markup.yaml')
         devices = testbed_object.devices
         for device in devices:
             # disable initial config init_exec_commands=[], init_config_commands=[]

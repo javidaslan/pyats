@@ -1,0 +1,1 @@
+['ac','ar','bg','dot1x','eigrp','fdb','hsrp','igmp','interface','isis','lag','lisp','lldp','mcast','mld','msdp','nd','ntp','ospf','pim','platform','prefix_list','rip','route_policy','routing','static_routing','stp','utils','vlan','vrf','vxlan','config']
